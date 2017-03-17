@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TCSCareerSite" duration-ms="55035" started-at="2017-03-17T08:15:32Z" finished-at="2017-03-17T08:16:27Z">
+    <groups>
+    </groups>
+    <test name="JobSearch" duration-ms="55035" started-at="2017-03-17T08:15:32Z" finished-at="2017-03-17T08:16:27Z">
+      <class name="tcscareersite.JobSearch">
+        <test-method status="PASS" signature="openJobSearchSite()[pri:0, instance:tcscareersite.JobSearch@47fd17e3]" name="openJobSearchSite" is-config="true" duration-ms="10244" started-at="2017-03-17T02:15:32Z" finished-at="2017-03-17T02:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openJobSearchSite -->
+        <test-method status="PASS" signature="selectIndiaFromTheDropdown()[pri:1, instance:tcscareersite.JobSearch@47fd17e3]" name="selectIndiaFromTheDropdown" duration-ms="24887" started-at="2017-03-17T02:15:42Z" finished-at="2017-03-17T02:16:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectIndiaFromTheDropdown -->
+        <test-method status="PASS" signature="careerPortalLoginSwitch()[pri:2, instance:tcscareersite.JobSearch@47fd17e3]" name="careerPortalLoginSwitch" duration-ms="61" started-at="2017-03-17T02:16:07Z" finished-at="2017-03-17T02:16:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- careerPortalLoginSwitch -->
+        <test-method status="PASS" signature="careerPortalLogin()[pri:3, instance:tcscareersite.JobSearch@47fd17e3]" name="careerPortalLogin" duration-ms="19808" started-at="2017-03-17T02:16:07Z" finished-at="2017-03-17T02:16:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- careerPortalLogin -->
+      </class> <!-- tcscareersite.JobSearch -->
+    </test> <!-- JobSearch -->
+  </suite> <!-- TCSCareerSite -->
+</testng-results>

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TCSCareerSite">
+
+	<test name="JobSearch">
+		<classes>
+		
+			<class name="tcscareersite.JobSearch" />
+			
+		</classes>
+	</test>
+
+</suite>
