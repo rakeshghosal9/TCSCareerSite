@@ -43,6 +43,7 @@ public class JobSearch {
 	@Test(priority=2)
 	public void careerPortalLoginSwitch()
 	{
+		System.out.println("Inside Career Portal Login Switch");
 		allWindow = driver.getWindowHandles();
 		System.out.println("Total Size="+allWindow.size());
 		Iterator <String> it = allWindow.iterator();
