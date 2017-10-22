@@ -6,7 +6,9 @@
       <class name="tcscareersite.JobSearch">
         <methods>
           <include name="openJobSearchSite"/>
+          <include name="careerPortalLogin"/>
           <include name="selectIndiaFromTheDropdown"/>
+          <include name="careerPortalLoginSwitch"/>
         </methods>
       </class> <!-- tcscareersite.JobSearch -->
     </classes>
