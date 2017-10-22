@@ -20,7 +20,7 @@ public class JobSearch {
 	@BeforeTest
   public void openJobSearchSite() {
 		
-		
+		System.out.println("Setting up Chrome Driver");
 		System.setProperty("webdriver.chrome.driver", "C:\\Arpan\\Study Documents\\Selenium\\Selenium Framework\\TCSCareerSite\\chromedriver.exe");
 		driver = new ChromeDriver();
 		act = new Actions(driver);
