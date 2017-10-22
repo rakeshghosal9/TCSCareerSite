@@ -21,7 +21,7 @@ public class JobSearch {
   public void openJobSearchSite() {
 		
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Arpan\\Study Documents\\Selenium\\Selenium Framework\\TCSCareerSite\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rakes\\git\\TCSCareerSite\\chromedriver.exe");
 		driver = new ChromeDriver();
 		act = new Actions(driver);
 		driver.get("https://careers.tcs.com");
