@@ -32,6 +32,7 @@ public class JobSearch {
 	@Test(priority=1)
 	public void selectIndiaFromTheDropdown()
 	{
+		System.out.println("Selecting dropdown as India");
 		driver.findElement(By.xpath(".//*[@class='truncate ng-binding']")).click();
 		driver.findElement(By.xpath(".//*[@id='img1']")).click();
 		driver.findElement(By.xpath(".//*[@id='AS_tabContent']/div[2]/div[4]/a/span")).click();
